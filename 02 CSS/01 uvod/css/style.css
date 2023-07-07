@@ -1,0 +1,35 @@
+/* 
+1. ktory element chcem stylovat? (selector)
+2. zlozene zatvorky
+3. a v nich atributy (properties), ktore chceme menit (declaration)
+*/
+
+body { /* selector */
+  width: 600px; /* declaration */
+  padding: 50px; /* priesvitny okraj okolo elementu, vypln, vystlanie elementu zvnutra */
+  background: pink;
+}
+
+h1, h2 {
+  font-family: Georgia; /* viacslovne nazvy fontov sa pisu do single quotes, napr 'Lucida Grande' */
+  margin: 0; /* priesvitny okraj okolo elementu, odtlacenie zvonka */
+}
+
+h1 {
+  font-size: 42px;
+  color: #bada55; /* hexadecimalny zapis, lepsie definuje farby ako slovne pomenovanie - viac odtienov */
+}
+
+h2 {
+  font-size: 16px;
+  color: #abcde;
+  padding-bottom: 20px;
+  border: 1px solid lightgrey;
+}
+
+p {
+  color: dimgray;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  line-height: 26px;
+}
