@@ -33,3 +33,37 @@ p {
   font-family: 'Open Sans';
   line-height: 26px;
 }
+
+#main-guy { /* odchytim si ID */
+  color: blue;
+}
+
+.important { /* odchytim si class */
+  color: yellow;
+}
+
+.controls {
+  text-align: center;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 6px 12px; /* zhora-zdola, sprava-zlava */
+  background: #ccc;
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* zapis nizsie v subore prepise predosly zapis */
+.btn-success {
+  color: #fff;
+  background: #5CB85C;
+  border: 1px solid #5CB85C;
+}
+
+.btn-danger {
+  color: #fff;
+  background: #D9534F;
+  border: 1px solid #D9534F;
+}
