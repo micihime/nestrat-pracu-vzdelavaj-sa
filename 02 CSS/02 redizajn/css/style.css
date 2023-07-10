@@ -1,0 +1,40 @@
+body {
+	color: #fff;
+	background: #FE3747;
+	text-align: center;
+	padding: 25px 0;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	-webkit-font-smoothing: antialiased; /* webkit - specialny druh browsrov (Chrome al Safari) */
+}
+
+h1 {
+	font-size: 100px;
+  	font-family: "Arial Rounded MT Bold UI", "Helvetica Rounded", Arial, sans-serif;
+}
+
+h2 {
+	display: none;
+}
+
+p {
+	line-height: 22px;
+	width: 50%; /* 50perc, relativnu sirku, nie konkretne isty pocet px
+			50perc sirky !rodicovskeho! elementu */
+	margin: 50px auto; /* trik na zarovnanie elementu do stredu - ak dam text align, tak to sa tyka len textu, nie elementu 
+		dam auto, dopocita si sam - margin trick
+		zarovna na stred rodica */
+}
+
+a {
+	color: #FE3747;
+	background: #fff;
+	text-decoration: none;
+	padding: 2px 6px 3px 6px; /* zvrchu vpravo dole vlavo (v smere hodinovych ruciciek) */
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+a:hover /* css pseudoelement, pseudoclass, blizsie specifikuje elementy, stav elementu */
+{
+	background: #76c6c5;
+}
