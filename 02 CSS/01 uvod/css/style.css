@@ -4,6 +4,22 @@
 3. a v nich atributy (properties), ktore chceme menit (declaration)
 */
 
+/* CSS reset - chceme vynulovat vnutorne nastavenie prehliadaca, aby sme pri kazdom prehliadaci mali rovnaky startovaci bod */
+html,
+body {
+	margin:0;
+}
+
+/*
+NA DEMONSTRACIU CSS BOX MODELU
+	- CSS najlepšie pochopíme, keď si uvedomíme, že všetko je škatuľa. Každý element je štvoruholník, najčastejšie obdĺžnik. 
+	- Nech je to akokoľvek guľaté a kruhové, nech je to akokoľvek klikihákový kostrbatý obrázok, čo sa HTML a CSS týka, všetko je štvoruholník. 
+	- A všetky štvoruholníky sa skladajú na seba ako vrstvy zakusku.
+*/
+* { /* znamena VSETKO, vsetky elementy, nepouziva sa v produkcii, len ako developersky al debugovaci nastroj, aby som videla ako mam vsetky elementy na stranke */
+	outline: 3px solid black; /* nieco ako border, no border meni velkost elementu nastavenim hrubky */
+}
+
 body { /* selector */
   width: 600px; /* declaration */
   padding: 50px; /* priesvitny okraj okolo elementu, vypln, vystlanie elementu zvnutra */
