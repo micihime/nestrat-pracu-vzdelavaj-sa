@@ -45,6 +45,8 @@ a {
 	padding: 2px 6px 3px 6px; /* zvrchu vpravo dole vlavo (v smere hodinovych ruciciek) */
 	border-radius: 3px;
 	font-weight: bold;
+	width: 300px; /* inline-level element, neplati nan - neaplikuje sa */
+	height: 300px; /* inline-level element, neplati nan - neaplikuje sa */
 }
 
 a:hover /* css pseudoelement, pseudoclass, blizsie specifikuje elementy, stav elementu */
