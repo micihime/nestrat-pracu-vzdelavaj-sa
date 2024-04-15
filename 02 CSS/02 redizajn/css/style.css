@@ -16,6 +16,10 @@ h2 {
 	display: none;
 }
 
+.highlight {
+	color: #bada55;
+}
+
 .special {
 	background: #76c6c5;
 	color: aliceblue;
@@ -50,10 +54,8 @@ a {
 	font-weight: bold;
 	/* width: 300px;
 	height: 300px; */ /* inline-level element, neplati nan - neaplikuje sa */
-	margin-left: 35px; /* neaplikuje sa na inline-level element */
-	margin-right: 35px; /* neaplikuje sa na inline-level element */
-	margin-bottom: 35px; /* toto funguje */
-	/* ale padding funguje*/
+	/* margin-left: 35px; margin-right: 35px; */ /* neaplikuje sa na inline-level element */
+	/* margin-bottom: 35px; */ /* toto funguje, aj padding */
 }
 
 a:hover /* css pseudoelement, pseudoclass, blizsie specifikuje elementy, stav elementu */
