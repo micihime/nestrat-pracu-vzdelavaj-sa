@@ -16,13 +16,26 @@ h2 {
 	display: none;
 }
 
-p {
-	line-height: 22px;
+.special {
+	background: #76c6c5;
+	color: aliceblue;
+	width: 300px;
+	margin: 50px auto;
+	padding: 20px; /* ovplyvni (navysi) vyslednu sirku elementu - 300px sirka elementu plus 20px padding z kazdej strany */
+	border: 14px solid #fff; /* ovplyvni (navysi) vyslednu sirku elementu - prida 14px k sirke z kazdej strany */
+}
+
+.main {
 	width: 50%; /* 50perc, relativnu sirku, nie konkretne isty pocet px
 			50perc sirky !rodicovskeho! elementu */
 	margin: 50px auto; /* trik na zarovnanie elementu do stredu - ak dam text align, tak to sa tyka len textu, nie elementu 
 		dam auto, dopocita si sam - margin trick
 		zarovna na stred rodica */
+}
+
+p {
+	line-height: 22px;
+	margin-top: 50px;	
 }
 
 a {
