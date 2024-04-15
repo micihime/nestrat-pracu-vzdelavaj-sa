@@ -20,6 +20,8 @@ h2 {
 	background: #76c6c5;
 	color: aliceblue;
 	width: 300px;
+	height: 75px; /* vyska elementu sa automaticky prisposobi
+		no ak chcem, element viem urobit aj nizsi, nez je jeho obsah - potom ale vytrca */
 	margin: 50px auto;
 	padding: 20px; /* ovplyvni (navysi) vyslednu sirku elementu - 300px sirka elementu plus 20px padding z kazdej strany */
 	border: 14px solid #fff; /* ovplyvni (navysi) vyslednu sirku elementu - prida 14px k sirke z kazdej strany */
@@ -45,8 +47,8 @@ a {
 	padding: 2px 6px 3px 6px; /* zvrchu vpravo dole vlavo (v smere hodinovych ruciciek) */
 	border-radius: 3px;
 	font-weight: bold;
-	width: 300px; /* inline-level element, neplati nan - neaplikuje sa */
-	height: 300px; /* inline-level element, neplati nan - neaplikuje sa */
+	/* width: 300px;
+	height: 300px; */ /* inline-level element, neplati nan - neaplikuje sa */
 }
 
 a:hover /* css pseudoelement, pseudoclass, blizsie specifikuje elementy, stav elementu */
