@@ -1,3 +1,14 @@
 body, html {
 	margin: 0;
 }
+
+body {
+	color: #333;
+	font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+	padding: 0 50px;
+}
+
+p {
+	font-size: 45px;
+	line-height: 60px;
+}
