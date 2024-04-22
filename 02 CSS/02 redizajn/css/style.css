@@ -62,3 +62,8 @@ a:hover /* css pseudoelement, pseudoclass, blizsie specifikuje elementy, stav el
 {
 	background: #76c6c5;
 }
+
+a, strong {
+	display: block; /* inline level element zobrazi ako block level element 
+	- na samostatnom riadku, zabera celu sirku rodica */
+}
