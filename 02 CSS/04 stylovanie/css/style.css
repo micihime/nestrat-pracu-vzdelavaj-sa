@@ -2,13 +2,29 @@ body, html {
 	margin: 0;
 }
 
+/* sposoby pridavania farieb
+- keyword, napr. color: orange
+- RGB, napr. color: rgb(255, 97, 56)
+- hexa, napr. color: #FF6138
+- rgba, napr. color: rgba(255, 97, 56, 0.5), a je priesvitnost, nadobuda hodnotu od 0 po 1, mozeme vyjadrit aj percentualne
+*/
+
 body {
-	color: #333;
+	color: #333; /* znamena #333333, skrateny zapis, ak su kazde 2 za sebou rovnake, napr. #ff22aa sa da zapisat ako #f2a */
 	font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
 	padding: 0 50px;
+	background: #BEEB9F;
+	-webkit-font-smoothing: antialiased;
 }
 
 p {
 	font-size: 45px;
 	line-height: 60px;
+}
+
+strong {
+	color: rgb(255, 97, 56);
+	color: rgb(255, 97, 56, 0.5); /* pise sa 2x, pretoze niekt stare prehliadace nepoznaju rgba, 
+		co prehliadace nepoznaju tak to odignoruju, preto piseme najprv v starej verzii, 
+		v prehliadacoch sa berie posledne nastavene, takze v novom sa nastavi polopriesvitna */
 }
