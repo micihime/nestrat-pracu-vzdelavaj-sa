@@ -11,7 +11,7 @@ body, html {
 
 body {
 	color: #333; /* znamena #333333, skrateny zapis, ak su kazde 2 za sebou rovnake, napr. #ff22aa sa da zapisat ako #f2a */
-	font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+	font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; /* font, ktory je uz na PC */
 	padding: 0 50px;
 	background: #BEEB9F;
 	-webkit-font-smoothing: antialiased;
@@ -27,4 +27,13 @@ strong {
 	color: rgb(255, 97, 56, 0.5); /* pise sa 2x, pretoze niekt stare prehliadace nepoznaju rgba, 
 		co prehliadace nepoznaju tak to odignoruju, preto piseme najprv v starej verzii, 
 		v prehliadacoch sa berie posledne nastavene, takze v novom sa nastavi polopriesvitna */
+}
+
+strong:hover {
+	color: #FFB29E;
+}
+
+/* font so slovenskymi znakmi - latin extended */
+.google-font {
+	font-family: "Lobster", sans-serif;
 }
