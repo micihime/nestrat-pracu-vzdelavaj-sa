@@ -1,0 +1,14 @@
+Spravte jednoduchú "O mne" stránku.
+Pokúste sa zreplikovať niektorý z nasledovných dizajnov: (klik pre veľkú veľkosť):
+
+Vyberte si jeden z nich a spravte stránku, ktorá sa mu podobá. Doplňte vlastné údaje. Nemusíte sa toho držať do pixelu, je jedno, aké pozadia, farby, veľkosti a typy písma použijete.
+
+Hlavné je, aby ste vedeli:
+- nastaviť veľkosť, farbu, typ písma (tým myslím samotný font)
+- vycentrovať text (text a inline elementy sa centrujú pomocou text-align: center; na ich rodiča)
+- vycentrovať celú stránku (block elementy sa centrujú nastavením šírky a margin-left: auto; margin-right: auto;)
+- odtlačiť elementy od seba (margin)
+- odtlačiť text a iný obsah v elemente od jeho hrán (padding)
+- použiť border na ohraničenie elementu (prípadne pomocou border-top alebo border-bottom spraviť oddeľovaciu čiaru)
+- použiť padding a border okolo "a" alebo "button" elementu na vytvorenie fajného gombíka
+- použiť line-height a upraviť tak medzery medzia riadkami textu
