@@ -27,6 +27,11 @@ strong {
 	color: rgb(255, 97, 56, 0.5); /* pise sa 2x, pretoze niekt stare prehliadace nepoznaju rgba, 
 		co prehliadace nepoznaju tak to odignoruju, preto piseme najprv v starej verzii, 
 		v prehliadacoch sa berie posledne nastavene, takze v novom sa nastavi polopriesvitna */
+	font-variant: small-caps; /* velke pismena vo vyske malych pismen */
+	text-decoration: overline;
+	letter-spacing: 5px; /* existuje aj word-spacing */
+	text-shadow: 3px 2px 0px #000; /* posun zlava, posun zhora, rozmazanie (0 znamena tvrde), farba tiena
+		da sa aj vrstvit - 3px 2px 0px #000, 6px 4px 0px #fff - za ciernym tienom bude biely */
 }
 
 strong:hover {
@@ -36,4 +41,10 @@ strong:hover {
 /* font so slovenskymi znakmi - latin extended */
 .google-font {
 	font-family: "Lobster", sans-serif;
+	font-style: italic;
+	font-weight: 100; /* udava sa cislami od 100 po 900, 
+		400 je normal, 700 je bold*/
+	text-transform: lowercase;
+	text-indent: 400px;
+	text-align: left;
 }
