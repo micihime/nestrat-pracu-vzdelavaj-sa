@@ -56,6 +56,10 @@ a {
 	height: 300px; */ /* inline-level element, neplati nan - neaplikuje sa */
 	/* margin-left: 35px; margin-right: 35px; */ /* neaplikuje sa na inline-level element */
 	/* margin-bottom: 35px; */ /* toto funguje, aj padding */
+
+	display: inline-block; /* nevytvori vlastny riadok, ziska schopnost, ze mu teraz mozeme nastavovat vysku a sirku - bez nastavenia inline-block sa vyska a sirka nedaju nastavit! */
+	width: 300px;
+	height: 300px; 
 }
 
 a:hover /* css pseudoelement, pseudoclass, blizsie specifikuje elementy, stav elementu */
@@ -63,7 +67,12 @@ a:hover /* css pseudoelement, pseudoclass, blizsie specifikuje elementy, stav el
 	background: #76c6c5;
 }
 
-a, strong {
+strong {
 	display: block; /* inline level element zobrazi ako block level element 
 	- na samostatnom riadku, zabera celu sirku rodica */
+} /* div-om by sa nemal nastavovat display inline
+span-om by sa nemal nastavovat display block */
+
+.text-left {
+	text-align: left;
 }
