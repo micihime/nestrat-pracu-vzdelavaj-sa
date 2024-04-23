@@ -1,0 +1,23 @@
+Ake elementy mam pouzivat na strankach?
+Casta otazka je, ze ake HTML elementy pouzivat na stranky. Nie su ziadne tvrde pravidla, ale pre jednoduchost to mozes brat, ze vela stranok vyzera takto:
+
+	<header role="banner">
+		[ sem ide logo, navigacia, atd. ]
+	</header>
+	
+	<main class="content" role="main">
+		<article>[ hlavny obsah, clanky atd. ]</article>
+		<aside>[ sidebar ]</aside>
+	</main>
+	
+	<footer role="contentinfo">
+		[ copyright, autor, atd. ]
+	</footer>
+
+Tie role su teraz vedlajsie, ale proste mas hlavicku, mas hlavny obsah, mas paticku.
+
+Podobne jak v pribehu mas uvod, jadro, zaver alebo co a vsetko to mas pekne rozdelene do obalovacich elementov... Dava to tomu taku peknu, prehladnu strukturu.
+
+Clanok moze byt <article>, v nom su odstavce nadpisy <h1> ... <h6>, zoznamy <ul> alebo <ol>, odstavce textu <p>... Ak stranka ma niekolko roznych tematickych sekcii, mozes pouzit <section>. Navigacia moze byt v <nav>. S vynimkou h1 sa nadpisy mozu opakovat, kolko chces. Takze ak mas na stranke 5 rovnakych podnadpisov, v pohode mozes 5x pouzit element <h4>. 
+
+Element <div> by si mal pouzivat co najmenej, iba vtedy, ak fakt nevies najst iny, lepsi. A ak mas v kode strasne vela tych istych elementov, ze 90% su divy alebo <p> elementy s roznymi classmi, zrejme je nieco v neporadku a da sa to spravit lepsie. 
