@@ -4,7 +4,13 @@ body {
 }
 
 a {
+	color: #2455c3;
 	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
 }
 
 .logo {
@@ -29,6 +35,7 @@ a {
 
 .badge {
 	background: #bb3825;
+	background: rgba(187, 56, 37, 0.9);
 	display: block;
 	width: 120px;
 	height: 120px;
@@ -37,9 +44,25 @@ a {
 	font-size: 54px;
 	line-height: 40px;
 	font-weight: 800;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	letter-spacing: -2px;
 	text-align: center;
+}
+
+.badge:hover,
+.badge:focus {
+	text-decoration: none;
+}
+
+.badge small {
+	font-size: 16px;
+	line-height: 16px;
+	font-style: italic;
+	font-weight: normal;
+	letter-spacing: 0;
+	font-family: Georgia, serif;
+	display: block;
+	padding-top: 28px;
 }
 
 .post-header {
