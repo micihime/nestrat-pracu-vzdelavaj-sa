@@ -1,7 +1,10 @@
 body {
 	width: 960px;
 	margin: 0 auto;
-	background: #fff url('../img/background.jpg') 50% 30px no-repeat;
+}
+
+a {
+	text-decoration: none;
 }
 
 .logo {
@@ -11,11 +14,32 @@ body {
 }
 
 .logo a {
-	background: url('../img/logo.png') left top no-repeat;
+	background: url('../img/logo.png') right top no-repeat;
 	display: block;
 	width: 960px;
 	height: 105px;
 	text-indent: -9999px;
+}
+
+.cover {
+	background: #fff url('../img/background.jpg') 50% 0px no-repeat;
+	height: 300px;
+	margin-top: -85px;
+}
+
+.badge {
+	background: #bb3825;
+	display: block;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 54px;
+	line-height: 40px;
+	font-weight: 800;
+	font-family: "Open Sans", sans-serif;
+	letter-spacing: -2px;
+	text-align: center;
 }
 
 .post-header {
