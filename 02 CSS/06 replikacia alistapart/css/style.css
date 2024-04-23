@@ -7,6 +7,15 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+p {
+	margin: 0 0 24px;
+}
+
 a {
 	color: #2455c3;
 	text-decoration: none;
@@ -15,10 +24,6 @@ a {
 a:hover,
 a:focus {
 	text-decoration: underline;
-}
-
-p {
-	margin: 0 0 24px;
 }
 
 .logo {
@@ -109,7 +114,23 @@ p {
 	letter-spacing: -1px;
 }
 
-.post-content p {
+.post-content h2 {
+	font-size: 28px;
+	line-height: 30px;
+	color: #ba3925;
+	margin-top: 36px;
+	margin-bottom: 12px;
+}
+
+.post-content h3 {
+	font-size: 18px;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+
+.post-content p,
+.post-content h2,
+.post-content h3 {
 	margin-left: 130px;
 	margin-right: 130px;
 }
@@ -131,7 +152,7 @@ p {
 
 .pullquote {
 	color: #787878;
-	width: 300px;
+	max-width: 300px;
 }
 
 .pullquote.float-left {
