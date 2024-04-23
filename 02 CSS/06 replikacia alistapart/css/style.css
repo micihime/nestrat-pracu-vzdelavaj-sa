@@ -147,3 +147,18 @@ p {
 	line-height: 36px;
 	font-style: italic;
 }
+
+.pullquote ol,
+.pullquote ul {
+	list-style: none;
+	padding: 0;
+}
+
+.pullquote li {
+	border-bottom: 1px dotted #aaa;
+	padding: 2px 10px;
+}
+
+.pullquote li:last-child {
+	border-bottom: none;
+}
