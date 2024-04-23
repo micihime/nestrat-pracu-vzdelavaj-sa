@@ -8,11 +8,28 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
+header {
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+article {
+	width: 50%;
+	margin-bottom: 50px;
+	/* centering DIV */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
 h1 {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 100;
-	margin-top: 50px;
 	margin-bottom: 5px;
 	padding: 0;
 }
@@ -46,7 +63,6 @@ img {
 	width: 150px;
 	height: 150px;
 	margin-top: 50px;
-	margin-bottom: 50px;
 	/* align image to the center */
 	display: block;
  	margin-left: auto;
@@ -63,12 +79,4 @@ a {
 	font-size: 15px;
 	font-weight: 500;
 	letter-spacing: 1px;
-}
-
-.resume {
-	width: 50%;
-	margin-bottom: 80px;
-	/* centering DIV */
-	margin-left: auto;
-	margin-right: auto;
 }
