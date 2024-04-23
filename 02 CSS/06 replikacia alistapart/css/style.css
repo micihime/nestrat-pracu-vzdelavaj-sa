@@ -1,6 +1,8 @@
 body {
 	width: 960px;
 	margin: 0 auto;
+	color: #222;
+	font: 18px/30px Georgia, serif;
 }
 
 a {
@@ -11,6 +13,10 @@ a {
 a:hover,
 a:focus {
 	text-decoration: underline;
+}
+
+p {
+	margin: 0 0 24px;
 }
 
 .logo {
@@ -81,5 +87,22 @@ a:focus {
 	line-height: 56px;
 	font-weight: 800;
 	letter-spacing: -2px;
-	margin:0;
+	margin: 0 0 5px;
+}
+
+.post-meta {
+	font-style: italic;
+}
+
+.post-meta time:before {
+	content: ' - ';
+	font-style: normal;
+}
+
+.author {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: -1px;
 }
