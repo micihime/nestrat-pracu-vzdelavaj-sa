@@ -217,3 +217,49 @@ a:focus {
 .byline h3 a {
 	color: #222; /* a elementy nededia farby od rodica */
 }
+
+.pre-footer {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.review {
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+}
+
+.review li {
+	font-size: 14px;
+	line-height: 24px;
+	float: left;
+	width: 220px;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+}
+
+.review li:before {
+	content: '"';
+	color: #bb3825;
+	font-size: 60px;
+	font-style: italic;
+	position: absolute;
+	top: 20px;
+	left: 0;
+}
+
+.review blockquote {
+	font-style: italic;
+}
+
+.review-byline {
+	font-weight: bold;
+	padding-left: 30px;
+	margin-bottom: 8px;
+}
+
+.review-byline:before {
+	content: '- ';
+	color: #bb3825;
+}
