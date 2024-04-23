@@ -1,3 +1,18 @@
-body, html {
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.logo {
 	margin: 0;
+	position: relative;
+	top: -27px;
+}
+
+.logo a {
+	background: url('../img/logo.png') left top no-repeat;
+	display: block;
+	width: 960px;
+	height: 105px;
+	text-indent: -9999px;
 }
