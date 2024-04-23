@@ -1,3 +1,74 @@
 body, html {
 	margin: 0;
 }
+
+body {
+	background-color: #45b2b9;
+	color: whitesmoke;
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+h2 {
+	font-weight: 300;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+h4 {
+	text-align: center;
+	font-weight: 200;	
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+p {
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/* align image to the center */
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+	/* make image circular */
+	border-radius: 50%;
+}
+
+a {
+	background-color: #404040;
+	padding: 15px;
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.resume {
+	width: 50%;
+	margin-bottom: 80px;
+	/* centering DIV */
+	margin-left: auto;
+	margin-right: auto;
+}
