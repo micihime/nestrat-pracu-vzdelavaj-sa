@@ -1,0 +1,27 @@
+Vytvorte jednoduchú stránku, ktorá vyzerá nasledovne:
+uloha_2_a_pol.jpg
+
+Je to znednodušená verzia tejto stránky:
+
+muz.li
+prípadne aha: https://web.archive.org/web/20150317061604/http://muz.li:80/
+- kopa z linkov už nemusí fungovať, dával som ich sem dávno
+- alebo dizajny sa mohli pomeniť
+- to je normálne
+
+ak potrebuješ, skús tamtú stránku web archive, pre kopu stránok tam vieš nájsť jej staršie verzie 
+
+Zo stránky vycháme veci, ktoré nevieme. Napríklad v bielej hlavičke nemusí byť vľavo logo a vpravo menu, stačí, aby tam bolo iba menu. Napríklad v strede. Rovnako hlavička nemusí "scollovať" spolu s nami, môže byť stále hore. Stačí spraviť iba jeden veľký nadpis, menší podnadpis, button, text. Teda vlastne len vrch tejto stránky.
+
+Pár vecí:
+- ak máte pocit, že neviete, kde začať a zdá sa vám to komplikované, nádych, výdych a spravte to, čo viete:) ja začínam nastavením farby backgroundu, potom nastavím šírku stránky, farbu a typ fontu. a už som bližšie! potom nastavím veľkosť fontu. a už som bližšie! potom zarovnám text na stred. a už som bližšie:) nesnažte sa vyriešiť v hlave celý problém, pracujte po kúskoch. spravím kúsok, ktorý viem. potom spravím druhý, ktorý viem. všetko bude zo začiatku malý súboj, ale na konci bude hotová stránka a nabudúce to bude ľahšie:)
+
+- keď budete nastavovať šírku stránky pomocou width, nepozerajte sa na šírku obrázku, ktorý je tu hore v úlohe... spravte ju iba tak širokú, ako si to jej obsah vyžaduje (šírku si odmerajte v nejakom grafickom editore alebo odhadnite)
+
+- ak na vašej stránke nebude biely pás hlavičky na celú šírku obrazovky, je to preto, že ste nastavili šírku body elementu. a hlavička nemôže byť širšia ako body element... takže skúste vymyslieť iný prístup, prípadne skúste šírku nastaviť inému elementu, ako body;) (v body proste žiadne width nebude)
+
+- ten button nebude <button> alebo <a> element - buttony sa používajú na odoslanie formulárov, button sa vždy nachádza iba vo formulároch, tu nerobím formulár, nemáme žiadne údaje, ktoré by sme chceli zbierať alebo odosielať, tá oranžová vec bude slúžiť iba ako odkaz... takže použijeme <a> a naštýlujeme, aby vyzeral, ako gombík
+
+- nikdy nikdy nikdy nikdy nemixujte <button> a <a> elementy:) nikdy nedávajte <button> do <a> elementu alebo <a> do <button> elementu. vždy si vyberte iba jeden. buď <button> alebo <a>. Ak je to gombík, ktorý ma odoslať formulár, môže to byť <button>. v opačnom prípade to bude <a>. v absolútnej väčšine prípadov to bude vždy <a>. myslite na to, že <button> je viac menej anomália. a nikdy ich nemixujte:)
+
+- snažte sa iba približne, váš výsledok nemusí byť na pixel identický, len nech sa to podobá:) ak neviete ktorý font je na stránke použitý alebo ak ho nemáte, nevadí, skúste nájsť podobný, hlavne, nech je to nejaký pekný sans-serif:) farby pozisťujete cez inspect element alebo nejaký grafický editor (http://www.gimp.org/ je zdarma, ak nemáte photoshop ). ak si nevšimnete, že pod hlavičkou je jemný, 1px široký border tmavší ako pozadie a nedáte ho tam, nevadí;) nemusíme byť na pixel rovnakí, iba začíname, takže spravíme toľko, koľko vieme:)
