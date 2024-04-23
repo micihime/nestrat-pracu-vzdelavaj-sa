@@ -183,3 +183,37 @@ a:focus {
 .pullquote li:last-child {
 	border-bottom: none;
 }
+
+.post-footer {
+	width: 700px;
+	margin: 60px auto;
+}
+
+.post-footer h3 {
+	font-size: 18px;
+}
+
+.post-footer > h3 { /* priamy potomok */
+	text-align: center;
+}
+
+.photo {
+	float: left;
+}
+
+.photo img {
+	border-radius: 50%;
+	border: 10px solid #eee;
+	margin-top: 10px;
+}
+
+.byline h3,
+.byline p {
+	font-size: 14px;
+	line-height: 24px;
+	margin-left: 160px;
+}
+
+.byline h3 a {
+	color: #222; /* a elementy nededia farby od rodica */
+}
