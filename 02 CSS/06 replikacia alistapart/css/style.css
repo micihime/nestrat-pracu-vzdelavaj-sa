@@ -2,7 +2,6 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff url('../img/background.jpg') 50% 30px no-repeat;
-	font-family: "Open Sans", sans-serif;
 }
 
 .logo {
@@ -17,4 +16,17 @@ body {
 	width: 960px;
 	height: 105px;
 	text-indent: -9999px;
+}
+
+.post-header {
+	text-align: center;
+}
+
+.post-title {
+	font-size: 48px;
+	font-family: "Open Sans", sans-serif;
+	line-height: 56px;
+	font-weight: 800;
+	letter-spacing: -2px;
+	margin:0;
 }
