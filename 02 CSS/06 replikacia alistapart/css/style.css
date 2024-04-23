@@ -106,3 +106,15 @@ p {
 	text-transform: uppercase;
 	letter-spacing: -1px;
 }
+
+.post-content p {
+	margin-left: 130px;
+	margin-right: 130px;
+}
+
+.post-content p:first-child {
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 24px;
+	line-height: 36px;
+}
