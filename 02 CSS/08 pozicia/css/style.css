@@ -19,6 +19,14 @@ body, html {
 	outline: 3px solid red;
 }
 
+code {
+	color: aliceblue;
+	background: violet;
+	display: block;
+	padding: 25px;
+	text-align: center;
+}
+
 .group:before,
 .group:after {
 	content: " ";
