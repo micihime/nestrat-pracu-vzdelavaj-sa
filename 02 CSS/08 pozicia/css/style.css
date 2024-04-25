@@ -19,6 +19,18 @@ body, html {
 	outline: 3px solid red;
 }
 
+#layout-wrapper {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#layout-wrapper header,
+#layout-wrapper section,
+#layout-wrapper aside,
+#layout-wrapper footer {
+	margin: 0 0 25px;
+}
+
 code {
 	color: aliceblue;
 	background: violet;
