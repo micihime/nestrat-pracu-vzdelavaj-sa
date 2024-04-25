@@ -1,0 +1,31 @@
+Spravte stránku na štýl blogu..
+
+Skúste dosiahnuť niektorý z týchto dizajnov: obr v zlozke
+
+Znova, nemusí to byť na pixel identické, ale ak chcete, môže:)
+
+Hlavné je, aby ste:
+vytvorili stránku pozostávajúcu z headeru, footeru a hlavnej sekcie rozdelenej na články a sidebar
+použili float na vytvorenie layoutu, kde články sú na jednej strane a sidebar na druhej
+floatované elementy odizolovali od ostatných pomocou clearfix classu, čo sme si ukazovali (prípadne cez clear: both)
+Chcem, aby ste použili elementy <header>, <main>, <article>, <aside>, <footer>. V headeri zvykne byť logo a navigácia. Teraz bude stačiť logo. Logo môže byť aj obyčajný text. Vo footeri možno nejaký obkec, o čom stránka je. Alebo len © 2014. Čokoľvek.
+
+Do textu tiež môžete vložiť obrázok (alebo iný HTML element), okolo ktorého bude text obtekať. Čiže zasa float, ale bez clear. Pozor na to, že pri floatovaní vytrhávame element z normálneho toku dokumentu a preto mu musíme natvrdo zadať, ako široký ho chceme mať.
+
+Úloha part 2:
+
+Spravte niečo na tento štýl: obr v zlozke
+
+Čiže niekoľko elementov floatovaných vedľa seba. Nezabudnite ich obaliť nejakým clearfixo-izolačným elementom. Buď to zakomponujte do prvej stránky alebo spravte druhú.
+
+Je jedno, čo tam bude. Nechávam na vás. Môžno nejakú helovínsku tematiku, obľúbené monštrá alebo šteniatka alebo Marilyn Manson..
+
+Úloha part 3:
+
+Kód toho samozrejme nájdete aj v materiáloch. Môžete ho skopčiť a použiť, chcem však, aby ste ho prerobili. Aby ste ten istý dizajn dosiahli inými spôsobmi. Ja som to robil pomocou jedného floatu na obrázok. Spravíte 2 verzie:
+
+v prvej použijete 2 flaoty, jeden na obrázok, druhý na všetok ostatný text (podobne ako pri tom blogu. berte to tak, že obrázok je sidebar a text je hlavný obsah)
+v druhej použijete CSS position:)
+Som zvedavý:)
+
+Na stránkach ignorujte všetko, čo spraviť neviete. Znova sa viac riaďte tými obrázkami. Len do nich pridajte nejaký header a footer:)
