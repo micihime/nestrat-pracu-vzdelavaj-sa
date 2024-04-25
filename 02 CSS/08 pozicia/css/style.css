@@ -28,7 +28,3 @@ body, html {
 .group:after {
 	clear: both;
 }
-
-.group {
-	*zoom: 1;
-}
