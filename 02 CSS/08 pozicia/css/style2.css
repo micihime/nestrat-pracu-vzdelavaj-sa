@@ -14,6 +14,16 @@ body, html {
 	margin: 0 0 25px;
 }
 
+#layout-wrapper section {
+	float: left;
+	width: 425px;
+}
+
+#layout-wrapper aside {
+	float: right;
+	width: 250px;
+}
+
 code {
 	color: aliceblue;
 	background: violet;
