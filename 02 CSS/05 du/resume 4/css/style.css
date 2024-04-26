@@ -1,3 +1,61 @@
 body, html {
 	margin: 0;
 }
+
+body {
+	background: rgb(252, 252, 246);
+	color: #545454;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: #fd6300;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+header h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+header p {
+	font-size: 30px;
+	font-weight: 100;
+	padding: 40px 0;
+	margin-top: 40px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+main {
+	width: 700px;
+	margin: 0 auto;
+}
+
+main h2 {
+	color: #fd6300;
+	text-transform: capitalize;
+	font-weight: 200;
+	margin-bottom: 50px;
+}
+
+h3 {
+	text-transform: capitalize;
+	font-weight: 200;
+}
+
+main p {
+	margin-bottom: 40px;
+}
+
+ul {
+	margin: 0;
+}
