@@ -7,3 +7,37 @@ body {
 	font-family: "Open Sans", sans-serif;
 	color: aliceblue;
 }
+
+header {
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	color: #1b4966;
+}
+
+header h2 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+
+img {
+	border-radius: 50%;
+	border: 5px solid aliceblue;
+	/* align image to the center */
+	display: block;
+	margin: 0 auto;
+}
