@@ -7,6 +7,16 @@ body, html {
 	background: lightgoldenrodyellow;
 }
 
+#visibility-wrapper {
+	outline: 3px solid green;
+	background: lightgoldenrodyellow;
+}
+
+#main {
+	visibility: hidden;
+	/* display: none; */
+}
+
 .float-left {
 	float: left;
 }
