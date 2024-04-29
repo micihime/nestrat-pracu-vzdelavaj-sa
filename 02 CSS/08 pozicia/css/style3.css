@@ -32,7 +32,7 @@
 #layout-wrapper2 {
 	width: 700px;
 	margin: 0 auto;
-	visibility: hidden; /* sposobi, ze elementy nie je vidiet - su tam, je namiesto nich prazdne miesto v takej velkosti, ako boli elementy, ked mali visibility: visible */
+	/*visibility: hidden; /* sposobi, ze elementy nie je vidiet - su tam, je namiesto nich prazdne miesto v takej velkosti, ako boli elementy, ked mali visibility: visible */
 	/* display: none;  /* akoby tam ani neboli, vytrhne ich z toku dokumentu */
 }
 
@@ -47,7 +47,8 @@
 	float: left;
 	width: 425px;
 	position: absolute;
-	left: 30px;
+	top: 0;
+	left: 0;
 }
 
 #layout-wrapper2 aside {
