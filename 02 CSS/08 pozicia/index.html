@@ -31,10 +31,16 @@
 		<p>niekedy je potrebna presnejsia kontrola nad nastavovanim pozicie (presnejsia nez len umiestnit element uplne vlavo). atribut position - dovoluje manipulovat s poziciou elementov cez offset hodnoty</p>
 		<p>za normalnych okolnosti ma kazdy element position: static;</p>
 
+		<p>position: fixed; - element ostava na stranke v tej istej pozicii, aj ked scrollujem</p>
 		<p>position: relative; <a href="position-relative.html">TU</a> - nevytrhne element z toku dokumentu, len ho zobrazi inde - aby sa zobrazoval na inom mieste ako tam, kde by "mal" byt (podla pravidiel toku dokumentu) - realne su tam, kde by mali byt, miesto im je tam ako keby drzane. vizualne su inde ale ich miesto ostava nezaplnene. mozu prekryvat nieco ine</p>
 		<p>position: absolute; <a href="position-absolute.html">TU</a> - su vytrhnute z toku dokumentu</p>
 		<p>ak dam elementu position:absolute, left:0 a top:0 budu znamenat lavy horny roh dokumentu</p>
 		<p>ak dam elementu position:absolute a jeho rodicovi/niektoremu z rodicov position:relative, left:0 a top:0 budu znamenat lavy horny roh rodica</p>
+		
+		<p>elementy, ktore v HTML pridu neskor, su vyssie. to viem ovplyvnit nastavenim z-indexu (vyssi z-index - element je vyssie). <strong>pokial element nema position, z-index je ignorovany!</strong></p>
+		
+		
+		
 		<div id="visibility-wrapper" class="group">
 			<header><code>header</code></header>
 			<div id="main" class="group">
