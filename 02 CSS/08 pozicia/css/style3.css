@@ -1,7 +1,4 @@
-body, html {
-	margin: 0;
-}
-
+/* position relative */
 #layout-wrapper {
 	width: 700px;
 	margin: 0 auto;
@@ -28,7 +25,37 @@ body, html {
 	
 	position: relative;
 	left: 300px;
+	bottom: 200px;
 }
+
+/* position absolute */
+#layout-wrapper2 {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#layout-wrapper2 header,
+#layout-wrapper2 section,
+#layout-wrapper2 aside,
+#layout-wrapper2 footer {
+	margin: 0 0 25px;
+}
+
+#layout-wrapper2 section {
+	float: left;
+	width: 425px;
+	position: absolute;
+	left: 30px;
+}
+
+#layout-wrapper2 aside {
+	float: right;
+	width: 250px;
+	position: absolute;
+	right: 30px;
+}
+
+/* general styling section */
 
 code {
 	color: aliceblue;

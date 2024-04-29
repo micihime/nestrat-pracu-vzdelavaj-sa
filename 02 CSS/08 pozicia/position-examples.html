@@ -10,7 +10,7 @@
 		<p>niekedy je potrebna presnejsia kontrola nad nastavovanim pozicie (presnejsia nez len umiestnit element uplne vlavo). atribut position - dovoluje manipulovat s poziciou elementov cez offset hodnoty</p>
 		<p>za normalnych okolnosti ma kazdy element position: static;</p>
 
-		<p>position: relative; - nevytrhne element z toku dokumentu, len ho zobrazi inde - aby sa zobrazoval na inom mieste ako tam, kde by "mal" byt (podla pravidiel toku dokumentu) - realne su tam, kde by mali byt, miesto im je tam ako keby drzane. vizualne su inde ale ich miesto ostava nezaplnene</p>
+		<p>position: relative; - nevytrhne element z toku dokumentu, len ho zobrazi inde - aby sa zobrazoval na inom mieste ako tam, kde by "mal" byt (podla pravidiel toku dokumentu) - realne su tam, kde by mali byt, miesto im je tam ako keby drzane. vizualne su inde ale ich miesto ostava nezaplnene. mozu prekryvat nieco ine</p>
 		<div id="layout-wrapper" class="group">
 			<header><code>header</code></header>
 			<div id="main" class="group">
@@ -20,6 +20,15 @@
 			<footer><code>footer</code></footer>
 		</div>
 		
-		<p>position: absolute; </p>
+		<p>position: absolute; - su vytrhnute z toku dokumentu</p>
+		<div id="layout-wrapper2" class="group">
+			<header><code>header2</code></header>
+			<div id="main" class="group">
+				<section><code>section2</code></section>
+				<aside><code>aside2</code></aside>
+			</div>
+			<footer><code>footer2</code></footer>
+		</div>
+
 	</body>
 </html>
