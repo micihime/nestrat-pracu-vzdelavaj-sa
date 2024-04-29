@@ -1,7 +1,8 @@
-/* position relative */
 #layout-wrapper {
 	width: 700px;
 	margin: 0 auto;
+	/*visibility: hidden; /* sposobi, ze elementy nie je vidiet - su tam, je namiesto nich prazdne miesto v takej velkosti, ako boli elementy, ked mali visibility: visible */
+	/* display: none;  /* akoby tam ani neboli, vytrhne ich z toku dokumentu */
 }
 
 #layout-wrapper header,
@@ -14,20 +15,20 @@
 #layout-wrapper section {
 	float: left;
 	width: 425px;
-
-	position: relative;
-	right: 450px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 #layout-wrapper aside {
 	float: right;
 	width: 250px;
-	
-	position: relative;
-	left: 300px;
+	position: absolute;
+	right: 30px;
 }
 
 /* general styling section */
+
 code {
 	color: aliceblue;
 	background: violet;
