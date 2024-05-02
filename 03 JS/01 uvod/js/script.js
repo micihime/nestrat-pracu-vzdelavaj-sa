@@ -11,7 +11,7 @@
 
 (function($) {
     console.log("ak by sme mali viacero kniznic, ktore obsahuju dolar ako funkciu/keyword, takymto sposobom viem obalit kod, kde pouzivam dolar a ten dolar odkazuje na jQuery objekt");
-})(jQuery);
+})(jQuery); //skripty poukladane za sebou, poskladaju sa do 1 suboru/1 guce a mozu sa bit - $ z jQuery kniznice sa moze byt s tym, co $ znamena v dalsej kniznici
 
 //VIDEO 4
 /*
