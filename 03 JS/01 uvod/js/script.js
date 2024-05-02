@@ -1,4 +1,26 @@
+$(document).ready(function () {
+    console.log("Bud dam na zaciatok JS suboru document ready alebo uvediem skripty v HTML subore na zaver, pred ukoncovaci BODY tag.");
+});
+
+//VIDEO 4
+/*
+let fadeOut = $('.fade-out'),
+    styleObj = { 
+        position: 'relative', 
+        background: 'blue',
+        zIndex: 10 //v CSS property z-index, v JS sa pise camel case - plati pre vsetky viacslovne CSS properties
+    },
+    siteHeight = $('body').height(),
+    animationDuration = 3000;
+
+fadeOut.css(styleObj);
+fadeOut.on('mouseenter', function() {
+    this.animate({ top: siteHeight }, animationDuration).fadeOut();
+});
+*/
+
 //VIDEO 3
+/*
 //predvyrobene animacie - menia css vlastnosti
 $('.fade-out').fadeOut();
 $('.fade-out').fadeIn();
@@ -12,6 +34,7 @@ $('.post-title').animate({ width: 1000 }, 3000);
 let fadeOut = $('.fade-out');
 fadeOut.css({ position: 'relative', background: 'blue' });
 fadeOut.animate({ top: 1000 }, 3000);
+*/
 
 //VIDEO 2
 /*
