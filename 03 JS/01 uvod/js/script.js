@@ -1,6 +1,14 @@
+//VIDEO 5
+(function() {
+    alert('ahoj!');
+})();//self-invoking anonymous function
+
+//VIDEO 4
+/*
 $(function () { //$(document).ready(function () {
     console.log("Bud dam na zaciatok JS suboru document ready alebo uvediem skripty v HTML subore na zaver, pred ukoncovaci BODY tag.");
 });
+*/
 
 //VIDEO 4
 /*
