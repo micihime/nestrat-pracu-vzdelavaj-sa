@@ -1,7 +1,17 @@
 //VIDEO 5
+/*
 (function() {
     alert('ahoj!');
-})();//self-invoking anonymous function
+})(); //self-invoking anonymous function
+*/
+
+(function(meno) {
+    alert('ahoj '+ meno);
+})('Belzebub'); //self-invoking anonymous function
+
+(function($) {
+    console.log("ak by sme mali viacero kniznic, ktore obsahuju dolar ako funkciu/keyword, takymto sposobom viem obalit kod, kde pouzivam dolar a ten dolar odkazuje na jQuery objekt");
+})(jQuery);
 
 //VIDEO 4
 /*
