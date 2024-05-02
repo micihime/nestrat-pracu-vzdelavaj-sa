@@ -12,6 +12,11 @@
     });
     
     //traverzovanie po DOM
+    domTraversingExample(list);
+})(jQuery);
+
+function domTraversingExample(list)
+{
     console.log('vsetky deti zoznamu')
     console.log(list.children());
     
@@ -28,7 +33,7 @@
     console.log(list.children(':nth-child(3)'));
     
     console.log('nasledujuci element po 3. dietati zoznamu - pouzitim pseudo selektora')
-    console.log(list.children(':nth-child(3)').netx());
+    console.log(list.children(':nth-child(3)').next());
     
     console.log('3. dieta zoznamu - pouzitim indexu (JS cisluje od nuly!!! avsak CSS cisluje od 1)')
     console.log(list.children().eq(2));
@@ -40,10 +45,10 @@
     console.log(list.children().eq(2).prevAll());
     
     console.log('vsetky nasledujuce elementy po 3. dietati zoznamu - pouzitim pseudo selektora')
-    console.log(list.children(':nth-child(3)').netxAll());
+    console.log(list.children(':nth-child(3)').nextAll());
     
     console.log('vsetky nasledujuce elementy po 3. dietati zoznamu, pouzitim pseudo selektora, ktore su DT')
-    console.log(list.children(':nth-child(3)').netxAll('dt'));
+    console.log(list.children(':nth-child(3)').nextAll('dt'));
     
     console.log('vsetci surodenci 1. dietata zoznamu pouzitim pseudo selektora')
     console.log(list.children(':first-child').siblings());
@@ -56,17 +61,7 @@
 
     console.log('vsetci rodicia zoznamu')
     console.log(list.parents());
-
-
-
-
-
-
-
-
-
-
-})(jQuery);
+}
 
 //VIDEO 5
 /*
