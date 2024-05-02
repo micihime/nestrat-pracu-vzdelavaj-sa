@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () { //$(document).ready(function () {
     console.log("Bud dam na zaciatok JS suboru document ready alebo uvediem skripty v HTML subore na zaver, pred ukoncovaci BODY tag.");
 });
 
