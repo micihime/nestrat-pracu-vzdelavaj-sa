@@ -1,9 +1,22 @@
+//VIDEO 6
+(function($) {
+    //chcem, aby aj ked ma clovek vypnuty JS, tak aby videl cely obsah - mohli by byt skryte od zaciatku v CSS, no pouzivatel by to nikdy nevidel
+    //  preto najprv necham vsetko zobrazene a skryjem to az na zaciatku JS file
+    let list = $('.zoznam');
+    list.find('dd').hide(); //alternativa: $('zoznam dd').hide();
+
+    list.find('dt').on('click', function(){
+       $(this) //ten konkretny dt element, na kt som klikla
+        .next() //nasledovny element, element, kt po nom nasleduje - surodenec
+        .slideDown(); //animacia
+    });    
+})(jQuery);
+
 //VIDEO 5
 /*
 (function() {
     alert('ahoj!');
 })(); //self-invoking anonymous function
-*/
 
 (function(meno) {
     alert('ahoj '+ meno);
@@ -12,6 +25,7 @@
 (function($) {
     console.log("ak by sme mali viacero kniznic, ktore obsahuju dolar ako funkciu/keyword, takymto sposobom viem obalit kod, kde pouzivam dolar a ten dolar odkazuje na jQuery objekt");
 })(jQuery); //skripty poukladane za sebou, poskladaju sa do 1 suboru/1 guce a mozu sa bit - $ z jQuery kniznice sa moze byt s tym, co $ znamena v dalsej kniznici
+*/
 
 //VIDEO 4
 /*

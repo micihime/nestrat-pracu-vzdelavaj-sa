@@ -1,3 +1,7 @@
-body, html {
-	margin: 0;
+dt {
+	background: blue;
+}
+
+dd {
+	background: grey;
 }
