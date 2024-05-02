@@ -9,7 +9,63 @@
        $(this) //ten konkretny dt element, na kt som klikla
         .next() //nasledovny element, element, kt po nom nasleduje - surodenec
         .slideDown(); //animacia
-    });    
+    });
+    
+    //traverzovanie po DOM
+    console.log('vsetky deti zoznamu')
+    console.log(list.children());
+    
+    console.log('vsetky deti zoznamu, kt su zaroven DT')
+    console.log(list.children('dt'));
+    
+    console.log('1. dieta zoznamu typu DT')
+    console.log(list.children('dt').first());
+
+    console.log('1. dieta zoznamu - pouzitim pseudo selektora')
+    console.log(list.children(':first-child'));
+    
+    console.log('3. dieta zoznamu - pouzitim pseudo selektora')
+    console.log(list.children(':nth-child(3)'));
+    
+    console.log('nasledujuci element po 3. dietati zoznamu - pouzitim pseudo selektora')
+    console.log(list.children(':nth-child(3)').netx());
+    
+    console.log('3. dieta zoznamu - pouzitim indexu (JS cisluje od nuly!!! avsak CSS cisluje od 1)')
+    console.log(list.children().eq(2));
+    
+    console.log('predosly element po 3. dietati zoznamu, pouzitim indexu')
+    console.log(list.children().eq(2).prev());
+        
+    console.log('vsetky predosle element po 3. dietati zoznamu, pouzitim indexu')
+    console.log(list.children().eq(2).prevAll());
+    
+    console.log('vsetky nasledujuce elementy po 3. dietati zoznamu - pouzitim pseudo selektora')
+    console.log(list.children(':nth-child(3)').netxAll());
+    
+    console.log('vsetky nasledujuce elementy po 3. dietati zoznamu, pouzitim pseudo selektora, ktore su DT')
+    console.log(list.children(':nth-child(3)').netxAll('dt'));
+    
+    console.log('vsetci surodenci 1. dietata zoznamu pouzitim pseudo selektora')
+    console.log(list.children(':first-child').siblings());
+
+    console.log('vsetci surodenci 1. dietata zoznamu pouzitim pseudo selektora, kt su zaroven DT')
+    console.log(list.children(':first-child').siblings('dt'));
+
+    console.log('priamy rodic zoznamu')
+    console.log(list.parent());
+
+    console.log('vsetci rodicia zoznamu')
+    console.log(list.parents());
+
+
+
+
+
+
+
+
+
+
 })(jQuery);
 
 //VIDEO 5
