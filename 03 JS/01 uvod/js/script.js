@@ -5,12 +5,13 @@ $('.fade-out').fadeIn();
 $('.fade-out').fadeToggle(); //zisti si hodnotu a urobi opak
 $('.fade-out').fadeToggle();
 //mozem si urobit vlastnu animaciu
-$('.slow-hide').animate({ width:1000 });
-$('.post-title').animate({ width:1000 }, 3000);
+$('.slow-hide').animate({ width: 1000 });
+$('.post-title').animate({ width: 1000 }, 3000);
 
-$('.fade-out').css({ position: 'relative', background: 'blue' });
-$('.fade-out').animate({ top:1000 }, 3000);
-
+//najlepsie je ulozit si element do premennej, aby ho jQuery hladal v DOM len 1x
+let fadeOut = $('.fade-out');
+fadeOut.css({ position: 'relative', background: 'blue' });
+fadeOut.animate({ top: 1000 }, 3000);
 
 //VIDEO 2
 /*
