@@ -8,7 +8,7 @@
     list.find('dt').on('click', function(){
        $(this) //ten konkretny dt element, na kt som klikla
         .next() //nasledovny element, element, kt po nom nasleduje - surodenec
-        .slideDown(); //animacia
+        .slideToggle(); //animacia
     });
     
     //traverzovanie po DOM
