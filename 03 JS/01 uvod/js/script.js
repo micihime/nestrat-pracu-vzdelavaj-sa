@@ -11,6 +11,13 @@
         .siblings('dd').slideUp(); //vsetkych ostatnych surodencov zatvorit
     });
     
+    //event bubbling 
+    //- ked kliknem na DT, klikam aj na jeho deti a aj na jeho rodicov
+    //- kliknem na DT, ale klikla som vlastne aj  na vnutorny SPAN, ktory oznami rodicovi, ze bolo nan kliknute
+    list.find('span').on('click', function(event) { //kazda event funkcia so sebou posiela event object
+        event.stopPropagation(); //funkcia stopPropagation() zastavuje event bubbling - SPAN neoznami rodicovi, ze nan bolo kliknute a tak funkcia otvarania a zatvarania nebude fungovat
+    });
+
     //traverzovanie po DOM
     domTraversingExample(list);
 })(jQuery);
