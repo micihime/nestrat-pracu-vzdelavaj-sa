@@ -14,12 +14,16 @@
     //event bubbling 
     //- ked kliknem na DT, klikam aj na jeho deti a aj na jeho rodicov
     //- kliknem na DT, ale klikla som vlastne aj  na vnutorny SPAN, ktory oznami rodicovi, ze bolo nan kliknute
-    list.find('span').on('click', function(event) { //kazda event funkcia so sebou posiela event object
+    list.find('span').on('click', function(event) { //kazda event funkcia so sebou posiela event object, my ho mozeme potom odchytit a pouzivat - ak chceme
         event.stopPropagation(); //funkcia stopPropagation() zastavuje event bubbling - SPAN neoznami rodicovi, ze nan bolo kliknute a tak funkcia otvarania a zatvarania nebude fungovat
     });
 
+    list.find('a').on('click', function(event) {
+        event.preventDefault(); //funkcia, ktora zabrani vykonaniu zakladnej akcie elementu - pre element a je to otvorenie linku
+    });
+
     //traverzovanie po DOM
-    domTraversingExample(list);
+    //domTraversingExample(list);
 })(jQuery);
 
 function domTraversingExample(list)
