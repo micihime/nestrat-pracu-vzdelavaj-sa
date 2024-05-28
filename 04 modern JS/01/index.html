@@ -16,24 +16,17 @@
         </article>
 
         <script>
-            let browserList = document.getElementById("browser"),
-                newItem = document.createElement("li");
-            newItem.textContent = "page loaded";
-            browserList.appendChild(newItem);
+            function addMessage(elementId, message)
+            {
+                let element = document.getElementById(elementId),
+                    newItem = document.createElement("li");
+                newItem.textContent = message;
+                element.appendChild(newItem);
+            }
 
-            document.body.addEventListener("click", function() {
-                let userList = document.getElementById("user"),
-                    newItem = document.createElement("li");
-                newItem.textContent = "clicked";
-                userList.appendChild(newItem);
-            });
-            
-            document.body.addEventListener("mousemove", function() {
-                let userList = document.getElementById("user"),
-                    newItem = document.createElement("li");
-                newItem.textContent = "moved";
-                userList.appendChild(newItem);
-            });            
+            addMessage("browser", "page loaded");
+            document.body.addEventListener("click", function() { addMessage("user", "clicked") });
+            document.body.addEventListener("mousemove", function() { addMessage("user", "moved") });            
         </script>
     </body>
 </html>
