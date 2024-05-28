@@ -8,15 +8,19 @@
     <body>
         <article>
             <ul id="browser">
-
+                <!-- udalosti v prehliadaci -->
             </ul>
             <ul id="user">
-                
+                <!-- akcie pouzivatela -->
             </ul>
         </article>
 
         <script>
-            
+            let browserList = document.getElementById("browser"),
+                newItem = document.createElement("li");
+
+            newItem.textContent = "page loaded";
+            browserList.appendChild(newItem);
         </script>
     </body>
 </html>
