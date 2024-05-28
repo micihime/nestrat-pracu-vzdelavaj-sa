@@ -21,21 +21,19 @@
             newItem.textContent = "page loaded";
             browserList.appendChild(newItem);
 
-            document.body.addEventListener("click", clickedIt);
-            function clickedIt() {
+            document.body.addEventListener("click", function() {
                 let userList = document.getElementById("user"),
                     newItem = document.createElement("li");
                 newItem.textContent = "clicked";
                 userList.appendChild(newItem);
-            }
-
-            document.body.addEventListener("mousemove", movedIt);
-            function movedIt() {
+            });
+            
+            document.body.addEventListener("mousemove", function() {
                 let userList = document.getElementById("user"),
                     newItem = document.createElement("li");
                 newItem.textContent = "moved";
                 userList.appendChild(newItem);
-            }
+            });            
         </script>
     </body>
 </html>
