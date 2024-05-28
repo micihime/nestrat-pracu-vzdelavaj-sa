@@ -22,11 +22,18 @@
             browserList.appendChild(newItem);
 
             document.body.addEventListener("click", clickedIt);
-
             function clickedIt() {
                 let userList = document.getElementById("user"),
                     newItem = document.createElement("li");
                 newItem.textContent = "clicked";
+                userList.appendChild(newItem);
+            }
+
+            document.body.addEventListener("mousemove", movedIt);
+            function movedIt() {
+                let userList = document.getElementById("user"),
+                    newItem = document.createElement("li");
+                newItem.textContent = "moved";
                 userList.appendChild(newItem);
             }
         </script>
