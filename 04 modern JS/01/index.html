@@ -25,8 +25,8 @@
             }
 
             addMessage("browser", "page loaded");
-            document.body.addEventListener("click", function() { addMessage("user", "clicked") });
-            document.body.addEventListener("keyup", function() { addMessage("user", "key pressed") });            
+            document.body.addEventListener("click", function clickedIt() { addMessage("user", "clicked") });
+            document.body.addEventListener("keyup", function pressedKey() { addMessage("user", "key pressed") });            
         </script>
     </body>
 </html>
