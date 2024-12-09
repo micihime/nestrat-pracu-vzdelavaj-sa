@@ -15,9 +15,16 @@ export default function Home() {
           priority
         />
         <ol>
-          <Link href="/chapter1" className={styles.secondary}>
-            Go to Chapter 1
-          </Link>
+          <li>
+            <Link href="/chapter1" className={styles.secondary}>
+              Go to Chapter 1
+            </Link>
+          </li>
+          <li>
+            <Link href="/chapter2" className={styles.secondary}>
+              Go to Chapter 2
+            </Link>
+          </li>
         </ol>
       </main>{" "}
     </div>
