@@ -30,6 +30,11 @@ export default function Home() {
               Go to Chapter 3
             </Link>
           </li>
+          <li>
+            <Link href="/chapter4" className={styles.secondary}>
+              Go to Chapter 4
+            </Link>
+          </li>
         </ol>
       </main>{" "}
     </div>
