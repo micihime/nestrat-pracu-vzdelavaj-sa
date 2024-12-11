@@ -68,10 +68,7 @@
   padding: 0 20px;
   border: none;
   border: 1px solid transparent;
-  transition:
-    background 0.2s,
-    color 0.2s,
-    border-color 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -165,4 +162,63 @@ a.secondary {
   .logo {
     filter: invert();
   }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 2rem;
+  text-align: center;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.intro {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.chapterNav ol {
+  list-style: none;
+  padding: 0;
+}
+
+.chapterNav li {
+  margin-bottom: 2rem;
+}
+
+.secondary {
+  display: block;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  background: #f5f5f5;
+  transition: background 0.2s;
+}
+
+.secondary:hover {
+  background: #e5e5e5;
+}
+
+.secondary h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.secondary p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+.footer {
+  padding: 2rem;
+  text-align: center;
+  background: #f5f5f5;
 }
